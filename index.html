@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CSS -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>JavaScript Quets</title>
+</head>
+
+<body>
+  <div class="wrapper bg-gray-400 antialiased text-gray-900">
+    <div>
+
+      <img alt="random image" class="w-full object-cover object-center rounded-lg shadow-md" id="imgQ">
+
+      <div class="relative px-4 -mt-16  ">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="flex items-baseline">
+            <span
+              class="showAll bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide"
+              id="showAll">
+              New
+            </span>
+            <div class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider">
+              Quotes
+            </div>
+          </div>
+          <br>
+
+          <h4 class="author mt-1 text-xl font-semibold uppercase leading-tight truncate" id="author"></h4>
+
+          <div class="mt-1">
+            <i class="start-quote fas fa-quote-left"></i>
+            <span class="quotes text-gray-600 text-sm" id="quotes"></span>
+          </div>
+
+          <div class="mt-4">
+            <img src="images/logo.png" alt="tweetMe" title="TweetMe" id="newQ"></span>
+            <span class="text-sm text-gray-600">(share to your twitter)</span>
+            <span id="tweetMe"> &raquo; Post</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 
+  <div class="container">
+    <div class="inner">
+      <div class="box">
+        <p class="number">
+          <img src="images/logo.png" alt="tweetMe" title="TweetMe" id="tweetMe">
+        </p>
+
+        <div class="text">
+          <i class="start-quote fas fa-quote-left"></i>
+          <p class="quotes" id="quotes"></p>
+          <p class="author" id="author"></p>
+        </div>
+
+        <label class="button">
+          <p id="newQ">new Quotes</p>
+        </label>
+      </div>
+    </div>
+  </div>
+ -->
+
+  <!-- My JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>

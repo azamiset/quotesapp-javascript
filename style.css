@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+#newQ {
+  height: 40px;
+  width: 60px;
+}
+
+#newQ,
+#tweetMe,
+#showAll {
+  cursor: pointer;
+}
